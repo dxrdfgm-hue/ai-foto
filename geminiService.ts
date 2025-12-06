@@ -11,7 +11,7 @@ const cleanBase64 = (dataUrl: string) => {
  * Returns a structured JSON object with scenes.
  */
 export const generateScript = async (topic: string): Promise<ScriptResponse> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey:AIzaSyBZOmJWwa3hWzEltEOwfH-6n_rhWWpb3Ww });
 
   const schema: Schema = {
     type: Type.OBJECT,
